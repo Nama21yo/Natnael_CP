@@ -1,4 +1,4 @@
-# Natnael_Competetive_Programming
+# Natnael_Competitive_Programming
 
 This repository contains my solutions to various Codeforces problems.
 To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F (on Mac)" and enter the keywords or problem name to search for it.
