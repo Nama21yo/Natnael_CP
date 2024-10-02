@@ -7,3 +7,4 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **catch_the_coin**: [https://codeforces.com/problemset/problem/1989/A](https://codeforces.com/problemset/problem/1989/A)
 - **Weird_Algorithm**: [https://cses.fi/problemset/task/1068/](https://cses.fi/problemset/task/1068/)
 - **upload_more_ram**: [https://codeforces.com/problemset/problem/1987/A](https://codeforces.com/problemset/problem/1987/A)
+- **missing_number**: [https://cses.fi/problemset/task/1083](https://cses.fi/problemset/task/1083)
