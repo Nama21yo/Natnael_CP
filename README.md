@@ -8,3 +8,5 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **Weird_Algorithm**: [https://cses.fi/problemset/task/1068/](https://cses.fi/problemset/task/1068/)
 - **upload_more_ram**: [https://codeforces.com/problemset/problem/1987/A](https://codeforces.com/problemset/problem/1987/A)
 - **missing_number**: [https://cses.fi/problemset/task/1083](https://cses.fi/problemset/task/1083)
+- **A_X_Axis**: [https://codeforces.com/problemset/problem/1986/A](https://codeforces.com/problemset/problem/1986/A)
+- **Repetitions**: [https://cses.fi/problemset/task/1069/](https://cses.fi/problemset/task/1069/)
