@@ -10,3 +10,5 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **missing_number**: [https://cses.fi/problemset/task/1083](https://cses.fi/problemset/task/1083)
 - **A_X_Axis**: [https://codeforces.com/problemset/problem/1986/A](https://codeforces.com/problemset/problem/1986/A)
 - **Repetitions**: [https://cses.fi/problemset/task/1069/](https://cses.fi/problemset/task/1069/)
+- **B_Maximum_Multiple_Sum**: [https://codeforces.com/contest/1985/problem/B](https://codeforces.com/contest/1985/problem/B)
+- **A_Creating_Words**: [https://codeforces.com/contest/1985/problem/A](https://codeforces.com/contest/1985/problem/A)
