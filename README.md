@@ -12,3 +12,4 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **Repetitions**: [https://cses.fi/problemset/task/1069/](https://cses.fi/problemset/task/1069/)
 - **B_Maximum_Multiple_Sum**: [https://codeforces.com/contest/1985/problem/B](https://codeforces.com/contest/1985/problem/B)
 - **A_Creating_Words**: [https://codeforces.com/contest/1985/problem/A](https://codeforces.com/contest/1985/problem/A)
+- **B_Ropes**: [https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B](https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B)
