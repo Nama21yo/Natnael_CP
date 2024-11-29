@@ -28,3 +28,4 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **B_Segment_with_Big_Sum**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B)
 - **C_Number_Of_Segments_with_Small_Sum**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)
 - **D_Number_Of_Segments_with_Big_Sum**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)
+- **E_Segment_with_Small_Set**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E)
