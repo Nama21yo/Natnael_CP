@@ -11,6 +11,7 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **A_X_Axis**: [https://codeforces.com/problemset/problem/1986/A](https://codeforces.com/problemset/problem/1986/A)
 - **B_Maximum_Multiple_Sum**: [https://codeforces.com/contest/1985/problem/B](https://codeforces.com/contest/1985/problem/B)
 - **A_Creating_Words**: [https://codeforces.com/contest/1985/problem/A](https://codeforces.com/contest/1985/problem/A)
+- **L_LOL_LOVERS**: [https://codeforces.com/problemset/problem/1912/L](https://codeforces.com/problemset/problem/1912/L)
 
 ## CSEC_Problem_Set
 
