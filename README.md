@@ -58,4 +58,12 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Nama21yo/Natnael_CP/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Nama21yo/Natnael_CP/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
