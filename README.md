@@ -40,6 +40,7 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 |  |
 | ------- |
 | [0263-ugly-number](https://github.com/Nama21yo/Natnael_CP/tree/master/0263-ugly-number) |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 ## Array
@@ -66,4 +67,16 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Nama21yo/Natnael_CP/tree/master/0125-valid-palindrome) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
