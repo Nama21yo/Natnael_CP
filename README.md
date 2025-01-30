@@ -40,6 +40,7 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 |  |
 | ------- |
 | [0263-ugly-number](https://github.com/Nama21yo/Natnael_CP/tree/master/0263-ugly-number) |
+| [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 ## Array
 |  |
@@ -53,4 +54,8 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 |  |
 | ------- |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
