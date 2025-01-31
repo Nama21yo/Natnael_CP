@@ -43,6 +43,7 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 | [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2812-find-the-maximum-achievable-number](https://github.com/Nama21yo/Natnael_CP/tree/master/2812-find-the-maximum-achievable-number) |
 ## Array
 |  |
 | ------- |
