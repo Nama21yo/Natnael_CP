@@ -1,0 +1,20 @@
+# Problem: H-Index - https://leetcode.com/problems/h-index/
+
+class Solution {
+    public int hIndex(int[] citations) {
+        int n = citations.length;
+        
+        // Sort in descending order using a lambda comparator on an Integer array
+        Integer[] sortedCitations = Arrays.stream(citations).boxed().toArray(Integer[]::new);
+        Arrays.sort(sortedCitations, (a, b) -> b - a);
+
+        // Iterate through the sorted citations to find the h-index
+        for (int i = 0; i < n; i++) {
+            if (sortedCitations[i] < i + 1) {
+                return i;
+            }
+        }
+        
+        return n;
+    }
+}
