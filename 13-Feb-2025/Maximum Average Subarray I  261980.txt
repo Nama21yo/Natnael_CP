@@ -1,0 +1,22 @@
+# Problem: Maximum Average Subarray I  - https://leetcode.com/problems/maximum-average-subarray-i/
+
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+        // Calculate the sum of the first k elements
+        int sum = 0;
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        
+        int maxSum = sum;
+        
+        // Use a sliding window to calculate the sum of subsequent subarrays of length k
+        for (int i = k; i < nums.length; i++) {
+            sum += nums[i] - nums[i - k];  // Slide the window to the right
+            maxSum = Math.max(maxSum, sum); // Update the maxSum if the new sum is greater
+        }
+        
+        // Return the maximum average
+        return (double) maxSum / k;
+    }
+}
