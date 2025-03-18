@@ -34,3 +34,51 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **C_Number_Of_Segments_with_Small_Sum**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)
 - **D_Number_Of_Segments_with_Big_Sum**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)
 - **E_Segment_with_Small_Set**: [https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E)
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0263-ugly-number](https://github.com/Nama21yo/Natnael_CP/tree/master/0263-ugly-number) |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+| [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2812-find-the-maximum-achievable-number](https://github.com/Nama21yo/Natnael_CP/tree/master/2812-find-the-maximum-achievable-number) |
+## Array
+|  |
+| ------- |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+## Hash Table
+|  |
+| ------- |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+## Counting
+|  |
+| ------- |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Nama21yo/Natnael_CP/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/Nama21yo/Natnael_CP/tree/master/1642-water-bottles) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Nama21yo/Natnael_CP/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Nama21yo/Natnael_CP/tree/master/0125-valid-palindrome) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Nama21yo/Natnael_CP/tree/master/1013-fibonacci-number) |
+<!---LeetCode Topics End-->
