@@ -1,0 +1,10 @@
+Value of n  Time Complexity Example Algorithms
+n <= 12 O(n!)   Backtracking, exhaustive search
+n <= 25 O(2^n)  Recursive combinations, DP
+n <= 100    O(n^4)  4D dynamic programming, nested loops
+n <= 500    O(n^3)  Floyd-Warshall, dynamic programming on graphs
+n <= 10^4   O(n^2)  Dynamic programming, DFS, BFS
+n <= 10^6   O(n log n)  Sorting algorithms, divide and conquer
+n <= 10^8   O(n)    Linear search, prefix sums, hashmaps
+n > 10^8    O(log n) or O(1)    Binary search, logarithmic operations
+n <= 10^9   O(sqrt(n))  Prime sieve, number theory problems

@@ -14,7 +14,8 @@ To quickly locate a specific question, press "Ctrl + F (on Windows)" or "Cmd + F
 - **L_LOL_LOVERS**: [https://codeforces.com/problemset/problem/1912/L](https://codeforces.com/problemset/problem/1912/L)
 - **A. Preparing for the Olympiad**: [https://codeforces.com/problemset/problem/2051/A](https://codeforces.com/problemset/problem/2051/A)
 - **B. Journey**: [https://codeforces.com/problemset/problem/2051/B](https://codeforces.com/problemset/problem/2051/B)
-- **C. Preparing for the Exam**: [https://codeforces.com/problemset/problem/2051/C](https://codeforces.com/problemset/problem/2051/C)
+- **A. MEX Table**: [https://codeforces.com/problemset/problem/2057/A](https://codeforces.com/problemset/problem/2057/B)
+- **B. Gorilla and the Exam**: [https://codeforces.com/problemset/problem/2057/B](https://codeforces.com/problemset/problem/2051/B)
 
 ## CSEC_Problem_Set
 

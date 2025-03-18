@@ -25,22 +25,30 @@ def digit():
 
 def character():
     return list(input().strip())
-def can_be_cut(ropes,mid,k,n):
-    return sum([rope//mid for rope in ropes]) >= k
-def solve(ropes,n,k):
-    l = 0
-    r = 1e8
-    for i in range(100):
-        mid = l + (r - l)/2 # remember it is double not int
-        if can_be_cut(ropes,mid, k,n):
-            l = mid
-        else:
-            r = mid
-    return l
+
+def solve(logs,n):
+    line = defaultdict(int)
+    for birth, death in logs:
+        line[birth] += 1
+        line[death] -= 1
+    max_year = 0
+    running_sum = 0
+    count = 0
+    
+    for year in sorted(line.keys()):
+        running_sum += line[year]
+        if running_sum > count:
+            max_year = year
+            count = running_sum
+    return [max_year,count]
 def main():
-    n, k = linp()
-    ropes = [int(input()) for _ in range(n)] 
-    print(solve(ropes,n,k))
+    n = iinp()
+    logs  = []
+    for _ in range(n):
+        row = linp()
+        logs.append(row)
+    # nums = linp()
+    print(*solve(logs, n))
 
 if __name__ == '__main__':
     main()

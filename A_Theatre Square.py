@@ -11,28 +11,20 @@ if sys.version_info[0] < 3:
     map = itertools.imap
     zip = itertools.izip
 
-
 def gcd(x, y):
     while y:
         x, y = y, x % y
     return x
 
-
-def solve(s):
-    pass
-
+def theatre(n,m,a):
+    p1 = (n + a - 1 ) // a # ceil(n / a )
+    p2 = (m + a - 1) // a # ceil(m / a)
+    return p1 * p2
 
 
 def main():
-    if not os.getenv('ONLINE_JUDGE'):
-        sys.stdin = open('input.txt', 'r')
-        sys.stdout = open('output.txt', 'w')
-
-    s = input().strip()
-    # num = int(input().strip())
-    # num_list = list(map(int, input().split()))
-    print(solve(s))
-
+    n, m, a = list(map(int, input().split()))
+    print(theatre(n,m,a))
 
 if __name__ == "__main__":
     main()

@@ -11,28 +11,22 @@ if sys.version_info[0] < 3:
     map = itertools.imap
     zip = itertools.izip
 
-
 def gcd(x, y):
     while y:
         x, y = y, x % y
     return x
 
-
-def solve(s):
-    pass
-
-
-
+def solve(nums,n):
+    nums.sort()
+    count = 1
+    for i in range(n - 1):
+        if nums[i] != nums[i + 1]:
+            count += 1
+    return count
 def main():
-    if not os.getenv('ONLINE_JUDGE'):
-        sys.stdin = open('input.txt', 'r')
-        sys.stdout = open('output.txt', 'w')
-
-    s = input().strip()
-    # num = int(input().strip())
-    # num_list = list(map(int, input().split()))
-    print(solve(s))
-
+    n = int(input().strip())
+    nums = list(map(int, input().split()))
+    print(solve(nums,n))
 
 if __name__ == "__main__":
     main()

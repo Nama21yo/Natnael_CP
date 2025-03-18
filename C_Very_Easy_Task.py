@@ -25,22 +25,28 @@ def digit():
 
 def character():
     return list(input().strip())
-def can_be_cut(ropes,mid,k,n):
-    return sum([rope//mid for rope in ropes]) >= k
-def solve(ropes,n,k):
+
+def can_be_copied(mid,x,y,n):
+    return (mid//x) + mid//y >= n - 1 #first copy is handled separately
+def solve(n,x,y):
+    if n == 1:
+        return min(x,y)
     l = 0
-    r = 1e8
-    for i in range(100):
-        mid = l + (r - l)/2 # remember it is double not int
-        if can_be_cut(ropes,mid, k,n):
-            l = mid
-        else:
+    r = max(x ,y)*n
+
+    while r - l > 1:
+        mid = l  + (r - l)//2
+        if can_be_copied(mid,x,y,n):
             r = mid
-    return l
+        else:
+            l = mid
+    return r + 1
+    
+
 def main():
-    n, k = linp()
-    ropes = [int(input()) for _ in range(n)] 
-    print(solve(ropes,n,k))
+    # n = iinp()
+    n,x,y = linp()
+    print(solve(n,x,y))
 
 if __name__ == '__main__':
     main()

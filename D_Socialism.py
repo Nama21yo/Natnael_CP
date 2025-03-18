@@ -25,22 +25,25 @@ def digit():
 
 def character():
     return list(input().strip())
-def can_be_cut(ropes,mid,k,n):
-    return sum([rope//mid for rope in ropes]) >= k
-def solve(ropes,n,k):
-    l = 0
-    r = 1e8
-    for i in range(100):
-        mid = l + (r - l)/2 # remember it is double not int
-        if can_be_cut(ropes,mid, k,n):
-            l = mid
+
+def solve():
+    t = iinp()  
+    results = []
+    for _ in range(t):
+        n, x = map(int, input().split())  
+        nums = sorted(map(int, input().split()), reverse=True)  # Sort wealth in descending order
+
+        total = 0  
+        for i in range(n):
+            total += nums[i]  
+            if total < x * (i + 1):  # Check if the average wealth falls below x
+                results.append(i) 
+                break
         else:
-            r = mid
-    return l
+            results.append(n)  
+    return '\n'.join(map(str, results))  
 def main():
-    n, k = linp()
-    ropes = [int(input()) for _ in range(n)] 
-    print(solve(ropes,n,k))
+    print(solve())
 
 if __name__ == '__main__':
     main()

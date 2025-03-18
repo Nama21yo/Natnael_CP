@@ -5,7 +5,7 @@ def bug_segment(arr, n, k):
     
     for r in range(n):
         count_map[arr[r]] = count_map.get(arr[r], 0) + 1
-        
+
         while len(count_map) > k:
             count_map[arr[l]] -= 1
             if count_map[arr[l]] == 0:

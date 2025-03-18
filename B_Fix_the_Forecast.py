@@ -1,3 +1,4 @@
+from functools import cmp_to_key
 import itertools
 from collections import Counter, defaultdict, deque
 from bisect import bisect_right, bisect_left
@@ -25,22 +26,23 @@ def digit():
 
 def character():
     return list(input().strip())
-def can_be_cut(ropes,mid,k,n):
-    return sum([rope//mid for rope in ropes]) >= k
-def solve(ropes,n,k):
-    l = 0
-    r = 1e8
-    for i in range(100):
-        mid = l + (r - l)/2 # remember it is double not int
-        if can_be_cut(ropes,mid, k,n):
-            l = mid
-        else:
-            r = mid
-    return l
+def solve():
+    n, k = map(int, input().split())
+    a = []
+    for i, temp in enumerate(map(int, input().split())):
+        a.append((temp, i))
+    b = list(map(int, input().split()))
+    a.sort()
+    b.sort()
+    ans = [0] * n
+    for i in range(n):
+        ans[a[i][1]] = b[i]
+    
+    print(*ans)
 def main():
-    n, k = linp()
-    ropes = [int(input()) for _ in range(n)] 
-    print(solve(ropes,n,k))
+    t = iinp()
+    for _ in range(t):
+        solve()
 
 if __name__ == '__main__':
     main()
